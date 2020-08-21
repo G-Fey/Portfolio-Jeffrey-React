@@ -1,0 +1,47 @@
+{
+    "skill" :
+    [
+        {
+            "lien_logo" : " ",
+            "nom_logo" : " ",
+            "specification" : ["","",""],
+            "mastery" : "",
+            "CI" : "OFF",
+            "ProjetOption" : "OFF"
+
+        }
+    ],
+
+    "Center_I":
+    [
+        {
+            "lien_logo" : " ",
+            "nom_logo" : " ",
+             "specification" : ["","",""],
+            "CI" : "ON",
+            "ProjetOption" : "OFF"
+        }
+    ],
+
+    "Project":
+    [
+        {
+            "lien_logo" : " ",
+            "nom_logo" : " ",
+            "titre_project" : "",
+             "specification" : ["","",""],
+            "CI" : "OFF",
+            "ProjetOption" : "ON"
+        }
+    ],
+
+    "Menu":
+    [
+        {
+            "lien_element" : " ",
+            "nom_element" : " ",
+            "icone_element" : " "
+
+        }
+    ]
+}
