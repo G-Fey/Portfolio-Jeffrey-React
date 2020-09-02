@@ -1,27 +1,28 @@
 import React, { Component } from 'react';
 import Menu from '../Jportfolio/Menu';
 import Home from '../Jportfolio/Home';
-import About_me from '../Jportfolio/About_me';
-import Skill_section from '../Jportfolio/s_Skill';
-import Experience_section from '../Jportfolio/s_Experience';
-import Centre_I from '../Jportfolio/Center_I';
-import Project_section from '../Jportfolio/s_Project';
+import AboutMe from '../Jportfolio/About_me';
+import SkillSection from '../Jportfolio/s_Skill';
+import ExperienceSection from '../Jportfolio/s_Experience';
+import CentreI from '../Jportfolio/Center_I';
+import ProjectSection from '../Jportfolio/s_Project';
 import Contact from '../Jportfolio/Contact';
+import Datajson from '../../data/data_portfolio.json'
 
 
 class Jportfolio extends Component {
-    render() {
+
+    render() {    
         return (
             <div>
-                <Menu/>
+                <Menu data={Datajson.Menu}/><Menu/>
                 <Home/>
-                <About_me/>
-                <Skill_section/>
-                <Experience_section />
-                <Centre_I/>
-                <Project_section/>
+                <AboutMe/>
+                <SkillSection data={Datajson.Skill}/>
+                <ExperienceSection data={Datajson.Experience}/>
+                <CentreI data={Datajson.Center_I}/>
+                <ProjectSection data={Datajson.Project}/>
                 <Contact/>
-
             </div>
         );
     }

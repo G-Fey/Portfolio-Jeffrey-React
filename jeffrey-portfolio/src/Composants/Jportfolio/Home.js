@@ -4,7 +4,7 @@ class home extends Component {
     render() {
         return (
             <section>
-                
+                {console.log("i")}
             </section>
         );
     }
