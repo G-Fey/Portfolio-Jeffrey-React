@@ -3,10 +3,6 @@ import React, { Component } from 'react';
 
 class Menu extends Component {
 
-    showdata = (datas) =>{
-    
-    }
-
     render() {
 
         let datas = this.props.data

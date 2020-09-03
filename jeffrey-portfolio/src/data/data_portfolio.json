@@ -2,12 +2,12 @@
     "Skill" :
     [
         {
+            "id":1,
             "lien_logo" : " ",
-            "nom_logo" : " ",
+            "nom_logo" : "test",
             "specification" : ["","",""],
             "mastery" : "",
-            "CI" : "OFF",
-            "ProjetOption" : "OFF"
+            "objet" : "skill"
 
         }
     ],
@@ -15,30 +15,30 @@
     "Center_I":
     [
         {
+            "id":1,
             "lien_logo" : " ",
             "nom_logo" : " ",
-             "specification" : ["","",""],
-            "CI" : "ON",
-            "ProjetOption" : "OFF"
+            "specification" : ["","",""],
+            "objet" : "CI"
         }
     ],
 
     "Project":
     [
         {
+            "id":1,
             "lien_logo" : " ",
             "nom_logo" : " ",
             "titre_project" : "",
-             "specification" : ["","",""],
-            "CI" : "OFF",
-            "ProjetOption" : "ON"
+            "specification" : ["","",""],
+            "objet" : "projet"
         }
     ],
 
     "Menu":
     [
         {
-            "id" : 1,
+            "id":1,
             "lien_element" : "brigite.fr",
             "nom_element" : "brigite ",
             "icone_element" : " none"
@@ -46,7 +46,7 @@
         },
 
         {
-            "id" : 2,
+            "id":2,
             "lien_element" : "regarde.fr",
             "nom_element" : "azeaze ",
             "icone_element" : " zae"
@@ -57,6 +57,7 @@
     "Experience":
     [
         {
+            "id":1,
             "data" : "brza",
             "nom_entreprise" : "brigite ",
             "poste" : " none",
