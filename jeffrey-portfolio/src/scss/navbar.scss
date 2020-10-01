@@ -1,0 +1,61 @@
+@import 'theme';
+
+.navbar{
+    position: fixed;
+    width: 50px;
+    top:0;
+    height: 100vh;
+    z-index: 100;
+    background-color: #202020;
+    overflow:hidden;
+    transition:width .3s ease;
+    cursor:pointer;
+    box-shadow:4px 7px 10px rgba(0,0,0,.4);
+
+    &:hover {
+      width:180px;
+    }
+
+    ul{
+        padding-top: 2em;
+
+        li {
+            padding-bottom:2rem;
+            a {
+            font-family: $policetitre2;
+            position: relative;
+            display:block;
+            transition:all .3s ease;;
+            text-decoration: none;
+            color:white;
+            font-size: 0.9em;
+
+            &:after {
+                content:'';
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top:0;
+                left:0;
+                border-radius:2px;
+                background:radial-gradient(circle at 94.02% 88.03%, $bleuprince, transparent 100%);
+                opacity:0;
+                transition:all .5s ease;
+                z-index: -10;
+                }
+            
+            svg{
+                width:26px;
+                height:26px;
+                position: relative;
+                left:-45px;
+                cursor:pointer;
+            }
+            
+            }
+            &:hover a:after {
+            opacity:1;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+// couleur du site
+    //principale
+$bleuprince:#30A8F2;
+
+$bleusaturer:#32BAD9;
+$bleusaturerclaire:#48D9CA;
+
+$mauveclaire:#8480F2;
+$mauve:#9163F2; 
+
+// police du site
+@font-face {
+    font-family: "Achi";
+    src: url("achi_regular.ttf");
+}
+   
+$policetitre1:'Achi','Montserrat', sans-serif;
+$policetitre2:'Montserrat', sans-serif;
+$policetexte:'Roboto', sans-serif;

@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+import 'bootstrap/dist/css/bootstrap.css';
 import Jportfolio from './Composants/Jportfolio/Jportfolio';
 
 function App() {
