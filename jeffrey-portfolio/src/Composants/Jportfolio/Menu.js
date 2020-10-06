@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './../../scss/navbar.scss';
+import './../../scss/Menu.scss';
 import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { GrMail } from 'react-icons/gr';
 

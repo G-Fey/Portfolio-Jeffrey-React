@@ -14,6 +14,28 @@
 
     &:hover {
       width:180px;
+
+        .linkedin{
+            left:40px;
+            bottom:40px ;
+        }
+
+        .git{
+            left:40px;
+            bottom:90px;
+            
+        }
+
+        .mail{
+            left:90px;
+            bottom:90px 
+        }
+
+        .face{
+            left:90px;
+            bottom:40px;
+        }
+
     
     }
 
@@ -68,6 +90,7 @@
     
     position: fixed;
     left: 10px;
+    transition:0.3s ease;
     background: linear-gradient(to bottom,  #000000 0%,#292929 100%);
     color: white;
     border-top: 3px solid rgba(255, 255, 255, 0.5);
