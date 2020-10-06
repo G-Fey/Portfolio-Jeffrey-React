@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 import Jportfolio from './Composants/Jportfolio/Jportfolio';
 
