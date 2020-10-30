@@ -1,144 +1,165 @@
 @import 'theme';
 
-.navbar{
-    position: fixed;
-    width: 55px;
-    top:0;
-    height: 100vh;
-    z-index: 100;
-    background-color: #202020;
-    overflow:hidden;
-    transition:width .3s ease;
-    cursor:pointer;
-    box-shadow:4px 7px 10px rgba(0,0,0,.4);
-
-    &:hover {
-      width:180px;
-
-        .linkedin{
-            left:40px;
-            bottom:40px ;
-        }
-
-        .git{
-            left:40px;
-            bottom:90px;
-            
-        }
-
-        .mail{
-            left:90px;
-            bottom:90px 
-        }
-
-        .face{
-            left:90px;
-            bottom:40px;
-        }
-
-    
+//ecran mobile
+@media screen and (max-width:768px){
+    .navbar{
+        display: none;
     }
 
-    ul{
+    .navbar2{
+        display: block;
 
-        list-style:none;
-        margin-left:0;
-        padding-left:0;
-        li {
-            width:150px;
-            padding-bottom: 20px;
-            a {
-                font-family: $policetitre2;
-                position: relative;
-                display:block;
-                transition:all .3s ease;;
-                text-decoration: none;
-                color:white;
-                font-size: 1em;
+        span{
+            font-family: $policetitre2;
+        }
+    }
+}
+//ecran PC
+@media screen and (min-width:768px){
+    .navbar{
+        position: fixed;
+        width: 55px;
+        top:0;
+        height: 100vh;
+        z-index: 100;
+        background-color: #202020;
+        overflow:hidden;
+        transition:width .3s ease;
+        cursor:pointer;
+        box-shadow:4px 7px 10px rgba(0,0,0,.4);
 
-                &:after {
-                    content:'';
-                    width: 100%;
-                    height: 100%;
-                    position: absolute;
-                    border-radius:2px;
-                    background:radial-gradient(circle at 94.02% 88.03%, $bleuprince, transparent 100%);
-                    opacity:0;
-                    transition:all .5s ease;
-                    z-index: -10;
-                    
-                }
+ 
+        &:hover {
+        width:180px;
+
+            .linkedin{
+                left:40px;
+                bottom:40px ;
+            }
+
+            .git{
+                left:40px;
+                bottom:90px;
                 
-                svg{
-                    width:26px;
-                    height:26px;
-                    position: relative;
-                    margin-right: 20px;
-                    cursor:pointer;
-                }
-            
             }
 
-            &:hover a:after {
-            opacity:1;
+            .mail{
+                left:90px;
+                bottom:90px 
+            }
+
+            .face{
+                left:90px;
+                bottom:40px;
+            }
+
+        
+        }
+
+        ul{
+
+            list-style:none;
+            margin-left:0;
+            padding-left:0;
+            li {
+                width:150px;
+                padding-bottom: 20px;
+                a {
+                    font-family: $policetitre2;
+                    position: relative;
+                    display:block;
+                    transition:all .3s ease;;
+                    text-decoration: none;
+                    color:white;
+                    font-size: 1em;
+
+                    &:after {
+                        content:'';
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        border-radius:2px;
+                        background:radial-gradient(circle at 94.02% 88.03%, $bleuprince, transparent 100%);
+                        opacity:0;
+                        transition:all .5s ease;
+                        z-index: -10;
+                        
+                    }
+                    
+                    svg{
+                        width:26px;
+                        height:26px;
+                        position: relative;
+                        margin-right: 20px;
+                        cursor:pointer;
+                    }
+                
+                }
+
+                &:hover a:after {
+                opacity:1;
+                }
             }
         }
     }
-}
 
-.btn-gradient{
-    
-    position: fixed;
-    left: 10px;
-    transition:0.3s ease;
-    background: linear-gradient(to bottom,  #000000 0%,#292929 100%);
-    color: white;
-    border-top: 3px solid rgba(255, 255, 255, 0.5);
-    border-left: 3px solid rgba(255, 255, 255, 0.3);
-    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
-    border-right: 3px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25),
-      0 1px 2px 1px rgba(0, 0, 0, 0.05);
-    border-radius: 100%;
+    .btn-gradient{
+        
+        position: fixed;
+        left: 10px;
+        transition:0.3s ease;
+        background: linear-gradient(to bottom,  #000000 0%,#292929 100%);
+        color: white;
+        border-top: 3px solid rgba(255, 255, 255, 0.5);
+        border-left: 3px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+        border-right: 3px solid rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25),
+        0 1px 2px 1px rgba(0, 0, 0, 0.05);
+        border-radius: 100%;
 
-    .taille{
-        width: 0px;
-        height: 10px;
-        position: relative;
-        bottom: 12px;
-        right: 8px;
+        .taille{
+            width: 0px;
+            height: 10px;
+            position: relative;
+            bottom: 12px;
+            right: 8px;
+        }
+    }
+
+    .btn-gradient:focus,
+    .btn-gradient:active,
+    .btn-gradient:hover{
+        color: white;
+    }
+
+    .btn-gradient.flat:active{
+        border: 3px solid #5c5c5c;
+        box-shadow: none;
+    }
+
+    .btn-gradient.outline:active{
+        border: 3px solid rgba(255, 255, 255, 0.7);
+        box-shadow: none;
+    }
+
+    .linkedin{
+        bottom:50px;  
+    }
+
+    .git{
+        bottom:90px; 
+    }
+
+    .mail{
+        bottom:130px; 
+    }
+
+    .face{
+        bottom:10px
+    }
+
+    .navbar2{
+        display: none;
     }
 }
-
-  .btn-gradient:focus,
-  .btn-gradient:active,
-  .btn-gradient:hover{
-    color: white;
-}
-
-.btn-gradient.flat:active{
-    border: 3px solid #5c5c5c;
-    box-shadow: none;
-}
-
-.btn-gradient.outline:active{
-    border: 3px solid rgba(255, 255, 255, 0.7);
-    box-shadow: none;
-}
-
-.linkedin{
-    bottom:50px;  
-}
-
-.git{
-    bottom:90px; 
-}
-
-.mail{
-    bottom:130px; 
-}
-
-.face{
-    bottom:10px
-}
-

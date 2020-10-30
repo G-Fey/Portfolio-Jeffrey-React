@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './../../scss/Menu.scss';
 import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { GrMail } from 'react-icons/gr';
+import logo from './../../img/logo_G-Fey.png'
 
 
 
@@ -16,8 +17,8 @@ class Menu extends Component {
             return (
 
                 <nav>
-
-                    <div className="menu">
+                    {/* TODO recuper les donner des props et les affiches */}
+                    {/* <div className="menu">
                         <ul>
                             {  
                                 datas.map(data =>
@@ -30,7 +31,7 @@ class Menu extends Component {
                                 })
                             }
                         </ul>
-                    </div>
+                    </div> */}
                     
                     <div className="navbar">
                         <ul>
@@ -98,7 +99,12 @@ class Menu extends Component {
                         <a className="btn btn-lg btn-gradient flat git" href="https://github.com/J-Striker" target="blank" role="button"><div className="taille"><FaGithub color="white" size="0.8em" /></div></a>
                         <a className="btn btn-lg btn-gradient flat mail" href="mailto:janavillela@laposte.net" role="button"><div className="taille"><GrMail color="white" size="0.8em"/></div></a>
                         <a className="btn btn-lg btn-gradient flat face" href="https://www.facebook.com/jeffrey.anavillela" target="blank" role="button"><div className="taille"><FaFacebookF color="white" size="0.8em"/></div></a>
-                    </div> 
+                    </div>
+
+                    <div class="navbar2 ">
+                            {/* TODO navbar version mobile */}
+                    </div>
+
                 </nav>
             );
 

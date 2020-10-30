@@ -19,3 +19,11 @@ $mauve:#9163F2;
 $policetitre1:'Achi','Montserrat', sans-serif;
 $policetitre2:'Montserrat', sans-serif;
 $policetexte:'Roboto', sans-serif;
+
+h1{
+    font-family: $policetitre1;
+}
+
+h2, h3{
+    font-family: $policetitre2;
+}
