@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './../../scss/Menu.scss';
 import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { GrMail } from 'react-icons/gr';
-import logo from './../../img/logo_G-Fey.png'
 
 
 
