@@ -1,81 +1,93 @@
 @import 'theme';
-.debutpage{
-    background-color: $background;
-    color: #FFF;;
-    height: 100vh;
+.home{
 
-    .play{
-        transform: rotate(90deg);
-        fill: $couleur2;
-        height: 300px;
+    .debutpage{
+        background-color: $background;
+        color: #FFF;;
+        height: 100vh;
+    
+        .play{
+            transform: rotate(90deg);
+            fill: $couleur2;
+            height: 300px;
+        }
+    
+        .btn {
+            line-height: 50px;
+            height: 500px;
+            text-align: center;
+            width: 650px;
+            cursor: pointer;
+        }
+        
+        .btn-two {
+            color: #FFF;
+            transition: all 0.5s;
+            position: relative; 
+        }
+        
+        .btn-two span {
+            z-index: 2; 
+            display: block; 
+            color: #FFF;  
+            font-family:$policetitre2;
+            font-size: 4em;
+        }
+        .btn-two::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            transition: all 0.5s;
+            border: 2px solid $couleur2;
+        }
+        
+        .btn-two::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            transition: all 0.5s;
+            border: 2px solid $couleur2;
+        }
+        
+        .btn-two:hover::before {
+          transform: rotate(-45deg);
+          background-color: #FFF;
+          opacity: 10%;
+    
+        }
+        
+        .btn-two:hover::after {
+          transform: rotate(45deg);
+          background-color: #FFF;
+          opacity: 10%;
+        }
+        
+        .logo{
+            width: 85vw;
+            position: absolute;
+            top:3;
+            z-index: auto;
+            transform: rotate(-20deg);
+        }   
     }
 
-    .btn {
-        line-height: 50px;
-        height: 500px;
-        text-align: center;
-        width: 650px;
-        cursor: pointer;
-    }
-    
-    .btn-two {
-        color: #FFF;
-        transition: all 0.5s;
-        position: relative; 
-    }
-    
-    .btn-two span {
-        z-index: 2; 
-        display: block; 
-        color: #FFF;  
-        font-family:$policetitre2;
-        font-size: 4em;
-    }
-    .btn-two::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-        transition: all 0.5s;
-        border: 2px solid $couleur2;
-    }
-    
-    .btn-two::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-        transition: all 0.5s;
-        border: 2px solid $couleur2;
-    }
-    
-    .btn-two:hover::before {
-      transform: rotate(-45deg);
-      background-color: #FFF;
-      opacity: 10%;
-
-    }
-    
-    .btn-two:hover::after {
-      transform: rotate(45deg);
-      background-color: #FFF;
-      opacity: 10%;
-    }
-    
-    .logo{
-        width: 85vw;
-        position: absolute;
-        top:3;
-        z-index: auto;
-        transform: rotate(-20deg);
-    
+    .A_propos{
+        background-color: $background;
+        color: #FFF;;
+        height: 100vh;
     }
 
-    
+    .portfolio{
+        background-color: $background;
+        color: #FFF;;
+        height: 100vh;
+    }
 }
