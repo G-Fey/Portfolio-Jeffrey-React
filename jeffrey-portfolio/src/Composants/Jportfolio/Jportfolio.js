@@ -15,11 +15,15 @@ class Jportfolio extends Component {
             <div>
                
                 <Menu data={Datajson.Menu}/>
+
                 <Home/>
+               
+
                 <Aboutme data={Datajson}/>
                 <ProjectSection data={Datajson.Project}/>
+               
                 <Contact/>
-
+                
             </div>
         );
     }

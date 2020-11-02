@@ -1,0 +1,33 @@
+@import 'theme';
+
+#Contact{
+    background-color: $background;
+    color: #FFF;;
+    height: 100vh;
+    padding-left: 100px;
+
+    .maillet{
+        color: #FFF;
+        text-decoration: none;
+        transition: 0.3s ease;
+        
+        p{
+            padding-left: 50px;
+            transition: 0.2s ease;
+        }
+
+        &:hover{
+            color:$couleur2;
+
+            p{
+                font-size: 3em;
+            }
+        }
+    }
+
+    .lienbut{
+        .taille{
+            size: 4em;
+        }
+    }
+}

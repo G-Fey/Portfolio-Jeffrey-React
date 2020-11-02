@@ -79,15 +79,17 @@
         }   
     }
 
-    .A_propos{
+    #A_propos{
         background-color: $background;
         color: #FFF;;
         height: 100vh;
+        padding-left: 100px;
     }
 
-    .portfolio{
+    #portfolio{
         background-color: $background;
         color: #FFF;;
         height: 100vh;
+        padding-left: 100px;
     }
 }
