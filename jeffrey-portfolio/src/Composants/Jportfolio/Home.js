@@ -10,7 +10,7 @@ class Home extends Component {
         return (
             <section className="home">
 
-                <article className="debutpage  container-fluide">
+                <article className="debutpage  container-fluide" id="accueil">
                     <div className="p-5 ml-5" id="parallax">
                         <h1 >Jeffrey ANAVILLELA</h1>
                         <h3 className="pb-3">Aka G-Fey</h3>
@@ -34,10 +34,10 @@ class Home extends Component {
                 </article>
 
                 <article id="A_propos" className=" d-flex align-items-center ">
-                    <div className="col-lg-5 pr-5">
+                    <div className="col-lg-6 pl-5">
                         <h2>A Propos de Moi</h2>
                         <p>J'aime tous ce qui à un rapport avec le domaine de la création (Illustration, Montage, Animation, 3D, Développement...)</p>
-                        <button class="b m-5"  onClick={()=>window.location.href='/Aboutme'}><span>Voir plus!!</span></button>
+                        <button className="b m-5"  onClick={()=>window.location.href='/Aboutme'}><span>Voir plus !!</span></button>
                     </div>
                     <div className="col-lg-6">
                         <img></img>
@@ -45,10 +45,10 @@ class Home extends Component {
                 </article>
 
                 <article id="portfolio" className=" d-flex align-items-center ">
-                    <div className="col-lg-3">
+                    <div className="col-lg-5 pl-5">
                         <h2>Mes Projets</h2>
                         <p>Ici vous pourrez voir toutes mes créations cliquez en bas pour voir</p>
-                        <button class="b m-5" onClick={()=>window.location.href='/Project'}><span>Voir plus!!</span></button>
+                        <button className="b m-5" onClick={()=>window.location.href='/Project'}><span>Voir plus !!</span></button>
                     </div>
                 </article>
                 

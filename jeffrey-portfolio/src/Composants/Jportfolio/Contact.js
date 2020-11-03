@@ -19,7 +19,7 @@ class Contact extends Component {
     render() {
         return (
             <section id="Contact" className=" d-flex align-items-center ">
-                <div className="col-lg-4">
+                <div className="col-lg-5 pl-5">
                         <h2>Me Contacter</h2>
                         <a className="maillet pt-5" href="mailto:gfey.art@gmail.com" role="button"><p>gfey.art@gmail.com</p></a>
 
