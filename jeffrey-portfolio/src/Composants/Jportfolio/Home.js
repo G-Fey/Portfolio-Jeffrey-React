@@ -3,6 +3,9 @@ import './../../scss/Home.scss';
 import logo from './../../img/logo_G-Fey.png'
 
 class Home extends Component {
+
+ 
+
     render() {
         return (
             <section className="home">
@@ -34,6 +37,7 @@ class Home extends Component {
                     <div className="col-lg-5 pr-5">
                         <h2>A Propos de Moi</h2>
                         <p>J'aime tous ce qui à un rapport avec le domaine de la création (Illustration, Montage, Animation, 3D, Développement...)</p>
+                        <button class="b m-5"  onClick={()=>window.location.href='/Aboutme'}><span>Voir plus!!</span></button>
                     </div>
                     <div className="col-lg-6">
                         <img></img>
@@ -44,6 +48,7 @@ class Home extends Component {
                     <div className="col-lg-3">
                         <h2>Mes Projets</h2>
                         <p>Ici vous pourrez voir toutes mes créations cliquez en bas pour voir</p>
+                        <button class="b m-5" onClick={()=>window.location.href='/Project'}><span>Voir plus!!</span></button>
                     </div>
                 </article>
                 
