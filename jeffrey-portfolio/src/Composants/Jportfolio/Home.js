@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './../../scss/Home.scss';
 import logo from './../../img/logo_G-Fey.png'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class Home extends Component {
 
@@ -22,12 +23,21 @@ class Home extends Component {
                             </div>
                         
                             <div className="box-2 d-flex justify-content-center">
-                                <a className="btn btn-two" href="#A_propos">
+                                <Link
+                                activeClass="active"
+                                to="A_propos"
+                                spy={true}
+                                smooth={true}
+                                offset={0}
+                                duration={500}
+                                >
+                                <div className="btn btn-two">
                                     <svg className="play ml-5 pb-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
                                         <polygon points="25 15, 50 50, 0 50"/>
                                     </svg>
                                     <span>START</span>
-                                </a>
+                                </div>
+                                </Link>
                             </div>
                         </div>
                     </div>

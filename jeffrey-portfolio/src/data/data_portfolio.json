@@ -3,13 +3,26 @@
     [
         {
             "id":1,
-            "lien_logo" : " ",
             "nom_logo" : "test",
-            "specification" : ["","",""],
-            "mastery" : "",
+            "mastery" : "50%",
+            "objet" : "skill"
+
+        },
+        {
+            "id":2,
+            "nom_logo" : "euh",
+            "mastery" : "90%",
+            "objet" : "skill"
+
+        },
+        {
+            "id":3,
+            "nom_logo" : "a ouais",
+            "mastery" : "10%",
             "objet" : "skill"
 
         }
+
     ],
 
     "Center_I":

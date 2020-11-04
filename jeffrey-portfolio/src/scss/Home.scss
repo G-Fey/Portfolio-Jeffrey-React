@@ -1,11 +1,11 @@
 @import 'theme';
 .home{
 
-    .debutpage{
+    #accueil{
         background-color: $background;
         color: #FFF;;
         height: 100vh;
-    
+
         .play{
             transform: rotate(90deg);
             fill: $couleur2;
@@ -78,7 +78,7 @@
             transform: rotate(-20deg);
         }   
     }
-
+    
     #A_propos{
         background-color: $background;
         color: #FFF;;

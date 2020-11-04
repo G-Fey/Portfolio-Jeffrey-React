@@ -21,7 +21,7 @@
         width: 55px;
         top:0;
         height: 100vh;
-        z-index: 100;
+        z-index: 6;
         background-color: #202020;
         overflow:hidden;
         transition:width .3s ease;
@@ -62,44 +62,25 @@
             list-style:none;
             margin-left:0;
             padding-left:0;
-            li {
+            color:white;
+          
+            li{
                 width:150px;
                 padding-bottom: 20px;
-                a {
-                    font-family: $policetitre2;
-                    position: relative;
-                    display:block;
-                    transition:all .3s ease;;
-                    text-decoration: none;
-                    color:white;
-                    font-size: 1em;
-
-                    &:after {
-                        content:'';
-                        width: 100%;
-                        height: 100%;
-                        position: absolute;
-                        border-radius:2px;
-                        background:radial-gradient(circle at 94.02% 88.03%, $couleur2, transparent 100%);
-                        opacity:0;
-                        transition:all .5s ease;
-                        z-index: -10;
-                        
-                    }
-                    
-                    svg{
-                        width:26px;
-                        height:26px;
-                        position: relative;
-                        margin-right: 20px;
-                        cursor:pointer;
-                    }
+                font-family: $policetitre2;
+                position: relative;
+                transition:all .3s ease;;
+                text-decoration: none;
+                font-size: 1em;
                 
+                svg{
+                    width:26px;
+                    height:26px;
+                    position: relative;
+                    margin-right: 20px;
+                    cursor:pointer;
                 }
-
-                &:hover a:after {
-                opacity:1;
-                }
+                
             }
         }
     }
@@ -163,4 +144,26 @@
     .navbar2{
         display: none;
     }
+
+    .nav-item > .active {
+        border-bottom: 1px solid white;
+    }
+
+    .arrowbtn{
+        position: fixed;
+        top:20px;
+        left:20px;
+        z-index: 7;
+        cursor:pointer;
+        transition: all .3s ease;
+
+        &:hover{
+             left:15px
+        }
+    }
+}
+.nav-item > .active {
+    color: $couleur3;
+    text-shadow: 0 0 15px   $couleur3;
+    transition: all 0.5s ease;
 }

@@ -5,7 +5,7 @@ import Datajson from '../../data/data_portfolio.json'
 class s_Project extends Component {
     render() {
         return (
-            <section>
+            <section id="projects">
                 <Rubrique data={Datajson.data}/>
             </section>
         );

@@ -1,42 +1,20 @@
 import React, { Component } from 'react';
+//TODO: IMPORTER TOUS LES LOGOS 
+
 
 class Rubrique extends Component {
-  
-    SwitchCase = (datas) =>{
-    
-        switch(datas[0].objet) {
-            case 'skill':
-                this.ShowSkill(datas);
-                break;
-            case 'CI':
-                this.ShowCI(datas);
-                break;;
-            case 'projet':
-                this.ShowProject(datas);
-                break;;
-            default:
-            console.log(`for use this template add a new category in JSON file : data_portfolio.json`);
-          }
-    }
 
-    ShowSkill = (datas) =>{
-    
-       datas.map(data => {
+ 
+    Converttabtolist = (tab) =>{
+        let spe="";
+        for (let i = 0; i < tab.length; i++) {
             return(
-                <article key={data.id}> 
-                    <img href={data.lien_logo} alt={data.nom_logo}></img>
-                </article>
+                spe = spe + tab[i]
             );
-        })
+        }
+           
     }
-
-    ShowCI = (datas) =>{
-        console.log("voila les centre d'intérêt" + datas)
-    }
-
-    ShowProject = (datas) =>{
-        console.log("voila les Projet" + datas)
-    }
+    
 
     render() {
 
@@ -45,8 +23,22 @@ class Rubrique extends Component {
         if(datas){
 
             return (
-                <div>
-                   {this.SwitchCase(datas)}
+                <div className="d-flex p-5 justify-content-around">
+                    {datas.map(data => {
+                    return(
+                        <div key={data.id}> 
+                            <div>
+                                <img src={data.nom_logo} alt={data.nom_logo} className="rounded-circle"></img>
+                                <span>{data.nom_logo}</span>
+
+                            </div>
+                            
+                            <div className="progress">
+                    <div className="progress-bar" role="progressbar" style={{width:data.mastery}} aria-valuenow={data.mastery} aria-valuemin="0" aria-valuemax="100"></div>
+                            </div><p>{data.mastery}</p>
+                        </div>
+                    );})}
+                
                 </div>
             );
 

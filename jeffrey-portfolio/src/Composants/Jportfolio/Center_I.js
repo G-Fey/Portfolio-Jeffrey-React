@@ -4,7 +4,7 @@ import Rubrique from './Rubrique';
 class Center_I extends Component {
     render() {
         return (
-            <section>
+            <section id="centre_i">
               <Rubrique data={this.props.data}/>  
             </section>
         );
