@@ -4,22 +4,19 @@
         {
             "id":1,
             "nom_logo" : "test",
-            "mastery" : "50%",
-            "objet" : "skill"
+            "mastery" : "50%"
 
         },
         {
             "id":2,
             "nom_logo" : "euh",
-            "mastery" : "90%",
-            "objet" : "skill"
+            "mastery" : "90%"
 
         },
         {
             "id":3,
             "nom_logo" : "a ouais",
-            "mastery" : "10%",
-            "objet" : "skill"
+            "mastery" : "10%"
 
         }
 
@@ -29,10 +26,10 @@
     [
         {
             "id":1,
-            "lien_logo" : " ",
-            "nom_logo" : " ",
-            "specification" : ["","",""],
-            "objet" : "CI"
+            "lien_logo" : "azeaz ",
+            "nom_logo" : "azeae ",
+            "nom" : "azeazeae ",
+            "description" : "zaeezaez"
         }
     ],
 
@@ -43,8 +40,7 @@
             "lien_logo" : " ",
             "nom_logo" : " ",
             "titre_project" : "",
-            "specification" : ["","",""],
-            "objet" : "projet"
+            "specification" : ["","",""]
         }
     ],
 
@@ -53,8 +49,7 @@
         {
             "id":1,
             "lien_element" : "brigite.fr",
-            "nom_element" : "brigite ",
-            "icone_element" : " none"
+            "nom_element" : "brigite "
 
         },
 
@@ -71,11 +66,28 @@
     [
         {
             "id":1,
-            "data" : "brza",
+            "nom_logo" : "test",
+            "nom_entreprise" : "brigite ",
+            "poste" : " none",
+            "description" : " none"
+
+        },
+        {
+            "id":2,
+            "nom_logo" : "test",
+            "nom_entreprise" : "brigite ",
+            "poste" : " none",
+            "description" : " none"
+
+        },
+        {
+            "id":3,
+            "nom_logo" : "test",
             "nom_entreprise" : "brigite ",
             "poste" : " none",
             "description" : " none"
 
         }
+     
     ]
 }

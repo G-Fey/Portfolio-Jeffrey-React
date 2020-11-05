@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Rubrique from './Rubrique'
+import Rubrique_skill from './Rubrique_skill'
 
 class s_Skill extends Component {
     render() {
@@ -8,7 +8,7 @@ class s_Skill extends Component {
       
                 <h2 className="text-center">Compétences</h2>
                 
-                <Rubrique data={this.props.data}/>
+                <Rubrique_skill data={this.props.data}/>
             </section>
         );
     }

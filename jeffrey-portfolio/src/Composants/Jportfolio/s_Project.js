@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Rubrique from './Rubrique';
+import Rubrique from './Rubrique_skill';
 import Datajson from '../../data/data_portfolio.json'
 
 class s_Project extends Component {
