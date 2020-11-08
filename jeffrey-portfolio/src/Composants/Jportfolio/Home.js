@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './../../scss/Home.scss';
 import logo from './../../img/logo_G-Fey.png'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 
 class Home extends Component {
 
