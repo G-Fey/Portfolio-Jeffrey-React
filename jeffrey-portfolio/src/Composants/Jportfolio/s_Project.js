@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Rubrique_project from './Rubrique_project'
 import Datajson from '../../data/data_portfolio.json'
 import { motion } from "framer-motion"
 
-class s_Project extends Component {
-
-    render() {
+const s_Project = () => {
 
         let datas = Datajson.Project
 
@@ -26,17 +24,9 @@ class s_Project extends Component {
                         />
                     );})}
                 </div>
-                <motion.div
-                animate={{
-                    x: -10,
-                    y: -100,
-                    scale: 2,
-                    rotate: 0,
-                }}
-/>
             </section>
         );
-    }
+
 }
 
 export default s_Project;

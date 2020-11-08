@@ -7,7 +7,7 @@ import Aboutme from './Composants/Jportfolio/About_me';
 import ProjectSection from './Composants/Jportfolio/s_Project';
 import {BrowserRouter, Route} from "react-router-dom"
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <div className="App">

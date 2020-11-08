@@ -1,20 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Rubrique_Exp from './Rubrique_Exp';
 
-class s_Experience extends Component {
-    render() {
+const s_Experience = (props) => {
 
-        let datas = this.props.data
+    let datas = props.data
 
-        return (
-            <section id="exp">
+    return (
+        <section id="exp">
 
-                 <h2 className="text-center p-5">Expériences</h2>
-                
-                 <Rubrique_Exp data={datas}/>
-            </section>
-        );
-    }
+                <h2 className="text-center p-5">Expériences</h2>
+            
+                <Rubrique_Exp data={datas}/>
+        </section>
+    );
 }
 
 export default s_Experience;
