@@ -1,11 +1,23 @@
-import React from 'react';
-import SkillSection from '../Jportfolio/s_Skill';
-import ExperienceSection from '../Jportfolio/s_Experience';
+import React, { useEffect } from 'react';
+import SkillSection from '../Jportfolio/S_Skill';
+import ExperienceSection from './S_Experience';
 import CentreI from '../Jportfolio/Center_I';
 import Datajson from '../../data/data_portfolio.json'
+import { useInView } from "react-intersection-observer";
+import { motion, useAnimation } from "framer-motion";
+
 
 const About_me = () => {
 
+    const controls = useAnimation();
+    const [ref, inView] = useInView();
+
+    useEffect(() => {
+    if (inView) {
+        controls.start("visible");
+    }
+    }, [controls, inView]);
+  
     return (
         <div>
             <section id="moi">
@@ -24,7 +36,17 @@ const About_me = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 p-5 text-center">
+                        <motion.div 
+                            ref={ref}
+                            animate={controls}
+                            initial="hidden"
+                            variants={{
+                               visible:{ opacity:1, scale:1},
+                               hidden:{ opacity:0, scale:0}
+                            }}
+                            transition={{duration:1}} 
+                            className="col-lg-6 p-5 text-center"
+                        >
                             {/* TODO: Photo profil */}
                             <img className="rounded-circle" src=""
                             style={{
@@ -32,7 +54,7 @@ const About_me = () => {
                                 width: 400,
                                 background:"#2ECC71"
                                 }}></img>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
 

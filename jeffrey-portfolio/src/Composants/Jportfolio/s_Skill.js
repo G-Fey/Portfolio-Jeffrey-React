@@ -2,7 +2,7 @@ import React from 'react';
 import Rubrique_skill from './Rubrique_skill'
 
 
-const s_Skill = (props) => {
+const S_Skill = (props) => {
 
     let datas = props.data
 
@@ -11,7 +11,7 @@ const s_Skill = (props) => {
     
             <h2 className="text-center">Compétences</h2>
 
-            <div className="d-flex flex-wrap p-5">
+            <div className="d-flex flex-wrap p-5" data-wow-iteration="10">
                 {datas.map(data => {
                 return(
                     <Rubrique_skill 
@@ -26,4 +26,4 @@ const s_Skill = (props) => {
     );
 }
 
-export default s_Skill;
+export default S_Skill;

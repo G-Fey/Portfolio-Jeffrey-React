@@ -4,6 +4,7 @@ import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsArrowLeft } from "react-icons/bs";
 import { GrMail } from 'react-icons/gr';
 import { Link} from "react-scroll";
+import { motion} from "framer-motion"
 
 class Menu extends Component {
 
@@ -45,7 +46,7 @@ class Menu extends Component {
 
         return (
 
-            <nav>
+            <nav >
                 {this.handleChange()}
                 <a  className={classes[3].buttonretour +" arrowbtn"} onClick={()=>window.location.href='/'}><BsArrowLeft color="white" size="6em"/></a>
                 
