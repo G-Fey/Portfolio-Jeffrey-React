@@ -44,7 +44,7 @@ const About_me = () => {
                                visible:{ opacity:1, scale:1},
                                hidden:{ opacity:0, scale:0}
                             }}
-                            transition={{duration:1}} 
+                            transition={{type:"spring", damping:5}} 
                             className="col-lg-6 p-5 text-center"
                         >
                             {/* TODO: Photo profil */}

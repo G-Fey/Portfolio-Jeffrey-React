@@ -24,6 +24,7 @@ const Rubrique_skill = (props) => {
                     ref={ref}
                     animate={controls}
                     initial="hidden"
+                    transition={{type:"spring", damping:5}}
                     variants={{
                     visible:{ opacity:1, scale:1},
                     hidden:{ opacity:0, scale:0}
