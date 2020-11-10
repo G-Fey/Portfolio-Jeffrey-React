@@ -4,48 +4,69 @@ import { Link} from "react-scroll";
 import Fade  from 'react-reveal/Fade';
 import LogoGFey from './LogoGFey.js'
 import { motion} from "framer-motion"
+import { useSpring, animated } from 'react-spring'
 
+const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2]
+const trans1 = (x, y) => `translate3d(${x / 10}px,${y / 10}px,0)`
+const trans2 = (x, y) => `translate3d(${x / 8 + 35}px,${y / 8 - 230}px,0)`
+const trans3 = (x, y) => `translate3d(${x / 6 - 250}px,${y / 6 - 200}px,0)`
+const trans4 = (x, y) => `translate3d(${x / 3.5}px,${y / 3.5}px,0)`
 
 const Home = () => {
 
-
+    const [props, set] = useSpring(() => ({ xy: [0, 0], config: { mass: 10, tension: 550, friction: 140 } }))
 
     return (
         <section
         className="home">
 
             <article className="debutpage  container-fluide" id="accueil">
-                <div className="p-5 ml-5" id="parallax">  
-                    <Fade left cascade><h1 >Jeffrey ANAVILLELA</h1>
-                    <h3 className="pb-3">Aka G-Fey</h3></Fade>
-                   
-                    <Fade left><LogoGFey className="logo"></LogoGFey></Fade>
-                   
-                    <div className="d-flex">
+                <div className="p-5 ml-5" id="parallax" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}> 
+
+                    <animated.div style={{ transform: props.xy.interpolate(trans1) }}>
                         <Fade left cascade>
-                        <div className="col-lg-4 col-12">
-                            <h3>Développeur Web, Designer Web, Illustrateur, Monteur vidéo, VFX, Technicien informatique</h3>  
-                        </div>
-                       
+                            <h1 >Jeffrey ANAVILLELA</h1>
+                            <h3 className="pb-3">Aka G-Fey</h3>
                         </Fade>
-                        <Fade right cascade>
-                        <div className="box-2 d-flex justify-content-center">
-                            <Link
-                                activeClass="active"
-                                to="A_propos"
-                                spy={true}
-                                smooth={true}
-                                offset={0}
-                                duration={500}
-                                >
-                                <div className="btn btn-two">
-                                    <svg className="play ml-5 pb-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
-                                        <polygon points="25 15, 50 50, 0 50"/>
-                                    </svg>
-                                    <span>START</span>
+                    </animated.div>
+
+                    <animated.div style={{ transform: props.xy.interpolate(trans2) }}>
+                        <Fade left>
+                            <LogoGFey className="logo"></LogoGFey>
+                        </Fade>
+                    </animated.div>
+
+                    <div className="d-flex">
+
+                        <animated.div style={{ transform: props.xy.interpolate(trans1) }}>
+                            <Fade left cascade>
+                                <div className="col-lg-4 col-12">
+                                    <h3>Développeur Web, Designer Web, Illustrateur, Monteur vidéo, VFX, Technicien informatique</h3>  
                                 </div>
-                            </Link>
-                        </div></Fade>
+                            </Fade>
+                        </animated.div>
+
+                        <animated.div style={{ transform: props.xy.interpolate(trans4) }}>
+                            <Fade right cascade>
+                                <div className="box-2 d-flex justify-content-center start">
+                                    <Link
+                                        activeClass="active"
+                                        to="A_propos"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={0}
+                                        duration={500}
+                                        >
+                                        <div className="btn btn-two">
+                                            <svg className="play ml-5 pb-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                                                <polygon points="25 15, 50 50, 0 50"/>
+                                            </svg>
+                                            <span>START</span>
+                                        </div>
+                                    </Link>
+                                </div>
+                            </Fade>
+                        </animated.div>
                     </div>
                 </div>
             </article>
