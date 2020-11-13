@@ -1,6 +1,23 @@
 @import 'theme';
 .home{
 
+    .animation{
+      cursor: default;
+    
+      .animemoi{
+        position:absolute;
+        top:-200px;
+
+      }
+      .lune{
+        position:absolute;
+        top:-250px;
+        right: 0px;
+        opacity: 0.8;
+
+      }
+    }
+
     .start{
     position: absolute;
     right:10px;
