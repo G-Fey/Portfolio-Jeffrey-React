@@ -1,6 +1,16 @@
 @import 'theme';
-.home{
+.jumbotron{
+  span{
+    color: $couleur2;
+  }
+}
 
+.travaux{
+  width: 100em;
+ }
+
+.home{
+  
     .animation{
       cursor: default;
     
@@ -13,8 +23,6 @@
         position:absolute;
         top:-250px;
         right: 0px;
-        opacity: 0.8;
-
       }
     }
 
@@ -130,7 +138,7 @@
         color: #fff;
         font-weight: 700;
         font-size: 20px;
-        background-color: #222;
+        background-color: #2ECC71;
         padding: 17px 60px;
         margin: 0 auto;
         box-shadow: 0 5px 15px rgba(0,0,0,0.20);

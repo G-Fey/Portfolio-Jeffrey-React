@@ -6,6 +6,9 @@ import Datajson from '../../data/data_portfolio.json'
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
 
+//icone
+import photo from '../../img/icone/photo_profil_jef.jpg';
+
 
 const About_me = () => {
 
@@ -23,15 +26,15 @@ const About_me = () => {
             <section id="moi">
                 <div className="jumbotron pl-5">
                     <div className="pl-5 row">
-                        <h2 className="text-center">Et oui c'est moi <span>G-Fey</span>, euh... Jeffrey </h2>
+                        <h2 className="text-center">Et oui, c'est moi <span className="font-weight-bold">G-Fey</span>, euh... Jeffrey </h2>
 
                         <div className="col-lg-6 p-5 d-flex align-items-center">
                             <div>
-                                <p>Je m'appelle <span>Jeffrey ANAVILLELA</span>. Je suis née sur l'ile de la Réunion en 1995.</p>
+                                <p>Je m'appelle <span className="font-weight-bold">Jeffrey ANAVILLELA</span>. Je suis née sur l'ile de la Réunion en 1995.</p>
 
                                 <p>
-                                    J'aime découvrire de <span>nouvelle culture et connaissance</span>. D'ailleur en ce qui concerne mes connaissance et mes compétences je suis assez polyvalent dans <span>le domaine de la
-                                    création</span>, grâce a mes passion et mes études qui sont centrer principalement autour de ce thème.
+                                    J'aime découvrir de <span className="font-weight-bold">nouvelles cultures et connaissance</span>. D'ailleurs en ce qui concerne mes connaissances et mes compétences, je suis assez polyvalent dans 
+                                    <span className="font-weight-bold"> le domaine de la création</span>, grâce à mes passions et mes études qui sont centrées principalement autour de ce thème.
                                 </p>
                             </div>
                         </div>
@@ -48,7 +51,7 @@ const About_me = () => {
                             className="col-lg-6 p-5 text-center"
                         >
                             {/* TODO: Photo profil */}
-                            <img className="rounded-circle" src=""
+                            <img className="rounded-circle" src={photo}
                             style={{
                                 height:400, 
                                 width: 400,

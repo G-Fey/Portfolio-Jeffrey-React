@@ -3,21 +3,99 @@
     [
         {
             "id":1,
-            "nom_logo" : "test",
-            "mastery" : "50%"
-
+            "source":"https://i.ibb.co/S7cxs7m/html.png",
+            "nom_logo" : "HTML",
+            "mastery" : "100%"
         },
         {
             "id":2,
-            "nom_logo" : "euh",
-            "mastery" : "90%"
-
+            "source":"https://i.ibb.co/p1Z2Wgx/css.png",
+            "nom_logo" : "CSS",
+            "mastery" : "80%"
         },
         {
             "id":3,
-            "nom_logo" : "a ouais",
-            "mastery" : "10%"
-
+            "source":"https://i.ibb.co/6Wb69Pf/Java-Script-logo.png",
+            "nom_logo" : "Javascript",
+            "mastery" : "60%"
+        },
+        {
+            "id":4,
+            "source":"https://i.ibb.co/m9HZ3gd/1280px-PHP-logo-svg.png",
+            "nom_logo" : "PHP",
+            "mastery" : "60%"
+        },
+        {
+            "id":5,
+            "source":"https://i.ibb.co/cg7Q491/kisspng-responsive-web-design-bootstrap-sass-cascading-sty-framework-5acb894bc4c191-9841223815232883.png",
+            "nom_logo" : "Bootstrap",
+            "mastery" : "100%"
+        },
+        {
+            "id":6,
+            "source":"https://i.ibb.co/FWXDCs2/kisspng-wordpress-logo-theme-5aec5a4793a276-1615702515254390476047.png",
+            "nom_logo" : "Wordpress",
+            "mastery" : "80%"
+        },
+        {
+            "id":7,
+            "source":"https://i.ibb.co/j5QPZZn/1280px-React-icon-svg.png",
+            "nom_logo" : "React js",
+            "mastery" : "70%"
+        },
+        {
+            "id":8,
+            "source":"https://i.ibb.co/0Qc7tT1/kisspng-purple-symbol-violet-logo-adobe-ae-5ab03c2c0e9d05-2565001315214991800599.png",
+            "nom_logo" : "Adobe After Effect",
+            "mastery" : "90%"
+        },
+        {
+            "id":9,
+            "source":"https://i.ibb.co/hHypTHm/kisspng-purple-symbol-violet-adobe-premiere-5ab039c2385d86-9357466415214985622309.png",
+            "nom_logo" : "Adobe Première",
+            "mastery" : "70%"
+        },
+        {
+            "id":10,
+            "source":"https://i.ibb.co/Bq7KT9f/kisspng-adobe-creative-cloud-adobe-systems-adobe-photoshop-logo-adobe-5b1840fa137bc6-467179171528316.png",
+            "nom_logo" : "Adobe Photoshop",
+            "mastery" : "80%"
+        },
+        {
+            "id":11,
+            "source":"https://i.ibb.co/t8MT8RP/kisspng-logo-flash-animation-adobe-animate-computer-softwa-5afcfd5bf39fd9-2040675815265293719979.png",           
+            "nom_logo" : "Adobe Animate",
+            "mastery" : "30%"
+        },
+        {
+            "id":12,
+            "source":"https://i.ibb.co/8BJCs9P/kisspng-area-text-symbol-clip-art-adobe-ai-5ab03c2202ed56-063230521521499170012.png",
+            "nom_logo" : "Adobe Illustrator",
+            "mastery" : "60%"
+        },
+        {
+            "id":13,
+            "source":"https://i.ibb.co/12JNZ8p/246x0w.png",
+            "nom_logo" : "Clip studio Pro",
+            "mastery" : "90%"
+        },
+        {
+            "id":14,
+            "source":"https://i.ibb.co/yn1YtvG/kisspng-blender-logo-computer-software-3d-computer-graphic-blender-5b16de794fcea5-081942431528225401.png",
+            "nom_logo" : "Blender",
+            "mastery" : "20%"
+        },
+        {
+            "id":15,
+            "source":"https://i.ibb.co/f2gXXCg/lol-png.webp",
+            "nom_logo" : "Maintenance et réparation matérielle informatique",
+            "mastery" : "100%"
+        },
+        {
+            "id":16,
+            "source":"https://i.ibb.co/BLsrn1B/51cf2a-16e668c36c884b1c85b9246b5ec57365-mv2-d-1578-1772-s-2.webp",
+            "nom_logo" : "Assistance et réseaux",
+            "mastery" : "80%"
         }
 
     ],
@@ -26,10 +104,21 @@
     [
         {
             "id":1,
-            "lien_logo" : "azeaz ",
-            "nom_logo" : "azeae ",
-            "nom" : "azeazeae ",
-            "description" : "zaeezaez"
+            "lien_logo" : "https://i.ibb.co/Gnf97Gv/krita-article-front-1080x506.png",
+            "nom" : "Digital Painting ",
+            "description" : "Je dessine souvent pour approfondir mon style de dessin. En ce moment mon style de dessin ce reproche du manga et du cartoon. Je dessine en général des personnages, mais je veux sortir de ma zone de confort pour commencer à dessiner des paysage et des décors."
+        },
+        {
+            "id":2,
+            "lien_logo" : "https://i.ibb.co/QkPRKGB/BEASTARS-anime-image-HD.jpg",
+            "nom" : "Animation ",
+            "description" : "Je m'intéresse beaucoup à l'animation. Je regarde pas mal de film d'animation, cinématique, anime et animation amateur"
+        },
+        {
+            "id":3,
+            "lien_logo" : "https://i.ibb.co/2Nv390x/Gamer.jpg",
+            "nom" : "Gamer ",
+            "description" : "Je joue et teste divers types de jeux vidéo sur différentes plateformes, cela me permet de trouver de nouvelle inspiration et de décompresser."
         }
     ],
 
@@ -37,7 +126,7 @@
     [
         {
             "id":1,
-            "image" : "Cristaline",
+            "source" : "Cristaline",
             "titre" : "euh",
             "link":"azdazdazd",
             "category":"Web app",
@@ -45,12 +134,21 @@
         },
         {
             "id":2,
-            "image" : "",
-            "titre" : "C'est mon titre",
-            "link":"https://www.react-spring.io/docs/props/spring",
-            "category":"website",
-            "desciption":"Ceci"
+            "source" : "https://i.ibb.co/7SnHLpk/logo-marmite-classroom.png",
+            "titre" : "Marmite Classroom : Gestionnaire de formation de cuisine ",
+            "link":"https://marmiteclassroom.herokuapp.com",
+            "category":"Application Web",
+            "desciption":"Cette application Web permet à un chef cuisinier inscrit de créer un atelier de formation. Elle permet aussi aux étudiants inscrits de pouvoir réserver sa place sur les ateliers proposés."
+        },
+        {
+            "id":3,
+            "source" : "https://i.ibb.co/sywc6v0/logo-exodia.png",
+            "titre" : "Exodya todolist : Application de tache a faire (todoliste)",
+            "link":"https://github.com/freezer974/todolist",
+            "category":"Application Web",
+            "desciption":"Cette application Web permet de créer des listes de tâches de les supprimer et de les validés."
         }
+        
     ],
 
     "Illustration":
@@ -82,49 +180,35 @@
         }
     ],
 
-    "Menu":
-    [
-        {
-            "id":1,
-            "lien_element" : "brigite.fr",
-            "nom_element" : "brigite "
-
-        },
-
-        {
-            "id":2,
-            "lien_element" : "regarde.fr",
-            "nom_element" : "azeaze ",
-            "icone_element" : " zae"
-
-        }
-    ],
-
     "Experience":
     [
         {
             "id":1,
-            "nom_logo" : "test",
-            "nom_entreprise" : "brigite ",
-            "poste" : " none",
-            "description" : " none"
-
+            "source":"https://i.ibb.co/XbDjTtW/c5d4c8ed7e4a6b0381efd21a7aa4316638abe272.png",
+            "nom_entreprise" : "Protek Solaris | 2020",
+            "poste" : "Stagiaire Web designer & développeur web",
+            "description" : "Stage réalisé pendant ma formation de développeur web a l'AFPA d'Avignon. J'avais pour mission de faire la maquette du nouveau site de Protek Solaris, de réaliser les éléments graphiques et de développer des composants du site."
         },
         {
             "id":2,
-            "nom_logo" : "test",
-            "nom_entreprise" : "brigite ",
-            "poste" : " none",
-            "description" : " none"
-
+            "source":"https://i.ibb.co/QjkHnfz/d8998bdd2f11ba937d3d13e27fe935c5e2c5463371a860b8e2d6c51e1787b1cf-large.jpg",
+            "nom_entreprise" : "Atout pc's | 2017 ",
+            "poste" : "Stagiaire Technicien Assistant Informatique",
+            "description" : "Stage réalisé pendant ma formation de technicien d'assistance en informatique. J'avais pour mission de réaliser le service après-vente et de conseiller des clients."
         },
         {
             "id":3,
-            "nom_logo" : "test",
-            "nom_entreprise" : "brigite ",
-            "poste" : " none",
-            "description" : " none"
-
+            "source":"https://i.ibb.co/CMzBTDb/deal.png",
+            "nom_entreprise" : "DEAL | 2017",
+            "poste" : "Stagiaire Technicien Assistant Informatique",
+            "description" : "Stage réalisé pendant ma formation de technicien d'assistance en informatique. J'avais pour mission de faire l'installation des pilotes et des logiciels, de gérer le stock, de changer un poste de domaine et de créer un master."
+        },
+        {
+            "id":4,
+            "source":"https://i.ibb.co/n3Nm9BH/t-l-charger.jpg",
+            "nom_entreprise" : "Mairie de St-Benoit | 2017",
+            "poste" : "Stagiaire Technicien Assistant Informatique",
+            "description" : "Stage réalisé pendant ma formation de technicien d'assistance en informatique. J'avais pour mission de réaliser le diagnostique d’un poste informatique, d'effectuer le dépannage de PC, d'installer les composants et les pilotes et d'Assister des utilisateurs."
         }
      
     ]

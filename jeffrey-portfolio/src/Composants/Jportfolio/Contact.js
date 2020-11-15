@@ -2,6 +2,8 @@ import React from 'react';
 import './../../scss/Contact.scss';
 import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';
+import Lottie from 'react-lottie'
+import mail from '../../img/animation/mail.json'
 
 const Contact = () => {
 
@@ -32,6 +34,18 @@ const Contact = () => {
                 </Fade>
                 </div>
             </div>
+            <a href="mailto:gfey.art@gmail.com" className="travaux"><div>
+                <Lottie 
+                    options={{
+                        loop: true,
+                        autoplay: true, 
+                        animationData:mail,
+                        rendererSettings: {
+                        preserveAspectRatio: 'xMidYMid slice'
+                        }}
+                    }
+                    />
+            </div></a>
         </section>
     );
 }

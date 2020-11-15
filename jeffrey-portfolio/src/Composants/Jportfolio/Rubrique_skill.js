@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useInView } from "react-intersection-observer";
-import { motion, useAnimation } from "framer-motion";
-//TODO: IMPORTER TOUS LES LOGOS 
+import { motion, useAnimation } from "framer-motion"; 
 
 
 const Rubrique_skill = (props) => {
@@ -18,9 +17,9 @@ const Rubrique_skill = (props) => {
 
     return (
 
-        <div className="text-center col-lg-4 p-5">
-            <div  className="d-flex justify-content-center">
-                <motion.div className="rounded-circle m-2"
+        <div className="text-center col-lg-3 p-5">
+            <div  className="d-flex justify-content-center align-items-center" style={{ height: "15em"}} >
+                <motion.div
                     ref={ref}
                     animate={controls}
                     initial="hidden"
@@ -29,15 +28,13 @@ const Rubrique_skill = (props) => {
                     visible:{ opacity:1, scale:1},
                     hidden:{ opacity:0, scale:0}
                     }}
-                    style={{
-                        height:250, 
-                        width: 250,
-                        background:"#2ECC71"
-                        }}
-                >      {/* TODO: logo compétence */}
-                    <img 
-                        src={data.nom_logo} 
-                        alt={data.nom_logo} >
+                > 
+                    <img className="rounded-circle" 
+                        src={data.source} 
+                        alt={data.nom_logo}  
+                        style={{
+                            width: "15em",
+                            }} >
                     </img>
                 </motion.div>
             </div> 
@@ -58,7 +55,8 @@ const Rubrique_skill = (props) => {
                 role="progressbar" 
                 aria-valuenow={data.mastery} 
                 aria-valuemin="0" 
-                aria-valuemax="100"></motion.div>
+                aria-valuemax="100"
+                style={{background: "#2ECC71",}}></motion.div>
             </div>
             <p className="mt-2">{data.mastery}</p>
         </div>

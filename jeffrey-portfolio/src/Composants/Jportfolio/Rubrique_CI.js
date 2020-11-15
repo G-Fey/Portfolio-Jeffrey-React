@@ -19,8 +19,8 @@ const Rubrique_CI = (props) => {
     return (
         
         <div key={data.id} className="text-center col-lg-4 p-5">
-            <div  className="d-flex justify-content-center">
-                <motion.div className=" m-2"
+            <div  className="d-flex justify-content-center ">
+                <motion.div className=" m-2 d-flex align-items-center"
                     ref={ref}
                     animate={controls}
                     initial="hidden"
@@ -28,15 +28,12 @@ const Rubrique_CI = (props) => {
                     visible:{ opacity:1, scale:1},
                     hidden:{ opacity:0, scale:0}
                     }}
-                    style={{
-                        height:250, 
-                        width: 250,
-                        background:"#2ECC71"
-                        }}
-                >      {/* TODO: logo compétence */}
+                    style={{height: "20em"}}
+                >
                     <img 
-                        src={data.nom_logo} 
-                        alt={data.nom_logo} >
+                      style={{width: 250}}
+                        src={data.lien_logo} 
+                        alt={data.nom} >
                     </img>
                 </motion.div>
             </div> 

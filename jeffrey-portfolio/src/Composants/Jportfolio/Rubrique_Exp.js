@@ -1,6 +1,5 @@
 import React from 'react';
 import Carousel from 'react-elastic-carousel';
-//TODO: IMPORTER TOUS LES LOGOS 
 
 
 const Rubrique_Exp = (props) =>{
@@ -12,22 +11,19 @@ const Rubrique_Exp = (props) =>{
         <div className="d-flex pr-5 mr-5 pl-5 ml-5">
             <Carousel 
             enableAutoPlay ={true}
-            autoPlaySpeed={5000}
+            autoPlaySpeed={7000}
             >
             {datas.map(data => {
             return(
                 <div key={data.id} className="text-center col-lg-12 p-5">
-                    <div  className="d-flex justify-content-center">
-                        <div    className="rounded-circle m-2"
+                    <div  className="d-flex justify-content-center align-items-center" >
+                        <div    
+                        >
+                            <img className="m-2"
                                 style={{
-                                    height:250, 
-                                    width: 250,
-                                    background:"#2ECC71"
+                                    width: "15em",
                                     }}
-                        >      {/* TODO: logo compétence */}
-                            <img 
-                                src={data.nom_logo} 
-                                alt={data.nom_logo} >
+                                src={data.source} >
                             </img>
                         </div>
                     </div>

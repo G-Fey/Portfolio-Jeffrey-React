@@ -12,10 +12,10 @@ const S_Project = () => {
 
     return (
         <section id="projects" className="ml-5 pl-5">
-            <h2 className="pl-5">Projets (Portfolio) </h2>
+            <h2 className="pl-5 text-center">Projets (Portfolio) </h2>
 
             <article className="section p-5">
-                <h3 className="p-5">Web</h3>
+                <h3 className="p-5 text-center">Web</h3>
                 <AnimateSharedLayout >
                 <motion.ul layout initial={{ borderRadius: 25 }} className="d-flex justify-content-center">
                     {website.map(item => (
@@ -25,9 +25,11 @@ const S_Project = () => {
                 </AnimateSharedLayout>
             </article>
 
-            <article className="container section">
-                <h3>Illustration</h3>
-                <Galeryphoto data ={{illustration}}></Galeryphoto>
+            <article className="section">
+                <h3 className="p-5 text-center">Illustrations</h3>
+                <div className="container">
+                    <Galeryphoto data ={{illustration}}></Galeryphoto>
+                </div>
             </article>
  
         </section>

@@ -18,6 +18,7 @@ const S_Skill = (props) => {
                         key={data.id}
                         nom_logo={data.nom_logo} 
                         mastery={data.mastery}
+                        source={data.source}
                     />
                 );})}
             </div>

@@ -3,8 +3,6 @@ import Content from './Content'
 import { motion, AnimatePresence, useAnimation } from "framer-motion";
 import './../../scss/Project.scss';
 import { useInView } from "react-intersection-observer";
-import Cristaline from '../../img/portfolio/Cristaline.png'
-//  TODO: impoter le dossier des images
 
 const Rubrique_project = (props) =>{
 
@@ -34,7 +32,7 @@ const Rubrique_project = (props) =>{
 
             <motion.li layout onClick={toggleOpen} className="card-deck ">
                 <motion.div layout >
-                    <img className="avatar " src={Cristaline} alt={donne.image}></img>
+                    <img className="" src={donne.source} alt={donne.titre}></img>
                 </motion.div>
                 <AnimatePresence>{isOpen && <Content titre={donne.titre} link={donne.link} category={donne.category} desciption={donne.desciption} />}</AnimatePresence>
             </motion.li>

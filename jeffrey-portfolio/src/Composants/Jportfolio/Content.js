@@ -13,10 +13,10 @@ const Content = (props) => {
         exit={{ opacity: 0 }}
         className="card-body"
       >
-        <h3>{data.category}</h3>
-        <h4>{data.titre}</h4>
+        <h3>{data.titre}</h3>        
         <a href={data.link} target='blank'><p>{data.link}</p></a>
-        <p>{data.titre}</p>
+        <p>{data.desciption}</p>
+        <p>{data.category}</p>
       </motion.div>
     );
 }
