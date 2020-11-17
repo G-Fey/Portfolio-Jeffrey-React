@@ -118,7 +118,7 @@
             "id":3,
             "lien_logo" : "https://i.ibb.co/2Nv390x/Gamer.jpg",
             "nom" : "Gamer ",
-            "description" : "Je joue et teste divers types de jeux vidéo sur différentes plateformes, cela me permet de trouver de nouvelle inspiration et de décompresser."
+            "description" : "Drakeîn est un anime amateur en production par le WJR Studio (J pour Jeffrey). En ce qui concerne le trailer, mon rôle était de créer et d'ajouter les effets spéciaux grâce au logiciel adobe after effect et ensuite de monter la vidéo. "
         }
     ],
 
@@ -126,18 +126,18 @@
     [
         {
             "id":1,
-            "source" : "Cristaline",
-            "titre" : "euh",
-            "link":"azdazdazd",
-            "category":"Web app",
-            "desciption":"Ceci"
+            "source" : "https://i.ibb.co/jgBq9dg/logo-Ryze-it.png",
+            "titre" : "Ryze It : Gestionnaire d'intervention pour les PME ",
+            "link":" http://ryzeit.epizy.com",
+            "category":"Type: Application Web",
+            "desciption":"L'application web Ryze it est une application de gestion de service (intervention). Elle permet de gérer les interventions par employer affecter à la tâche. C'est une application web complète qui permet d'avoir un espace perso pour son entreprise avec ses employées."
         },
         {
             "id":2,
             "source" : "https://i.ibb.co/7SnHLpk/logo-marmite-classroom.png",
             "titre" : "Marmite Classroom : Gestionnaire de formation de cuisine ",
             "link":"https://marmiteclassroom.herokuapp.com",
-            "category":"Application Web",
+            "category":"Type: Application Web",
             "desciption":"Cette application Web permet à un chef cuisinier inscrit de créer un atelier de formation. Elle permet aussi aux étudiants inscrits de pouvoir réserver sa place sur les ateliers proposés."
         },
         {
@@ -145,8 +145,16 @@
             "source" : "https://i.ibb.co/sywc6v0/logo-exodia.png",
             "titre" : "Exodya todolist : Application de tache a faire (todoliste)",
             "link":"https://github.com/freezer974/todolist",
-            "category":"Application Web",
+            "category":"Type: Application Web",
             "desciption":"Cette application Web permet de créer des listes de tâches de les supprimer et de les validés."
+        },
+        {
+            "id":4,
+            "source" : "https://i.ibb.co/JR3qH46/Drakein.jpg",
+            "titre" : "Drakeîn : Trailer animation amateur",
+            "link":"https://www.youtube.com/watch?v=WPHaDUuEd0o&fbclid=IwAR1ArTe69v1TQ8qlAG4X81HQ0kk0D4GZCFP6rI5UtyxYfKDoV21aAXy-4XY",
+            "category":"Type: Animation amateur",
+            "desciption":"Drakeîn est un anime amateur en production par le WJR Studio (J pour jeffrey). En ce qui concerne le trailer mon rôle étais de créée et d'ajouter les effet spéciaux grace au logiciel adobe after effect et ensuite de monter la video. "
         }
         
     ],
@@ -154,29 +162,89 @@
     "Illustration":
     [
         {
-            "src": "https://c7.staticflickr.com/9/8106/28941228886_86d1450016_b.jpg",
-            "thumbnail": "https://c7.staticflickr.com/9/8106/28941228886_86d1450016_n.jpg",
-            "thumbnailWidth": 271,
-            "thumbnailHeight": 320,
-            "tags": [{"value": "Nature", "title": "Nature | Flowers"}],
-            "caption": "Orange Macro (Tom Eversley - isorepublic.com)"
+            "src": "https://i.ibb.co/YbZMwtS/Cristaline.jpg",
+            "thumbnail": "https://i.ibb.co/ZNmP7hr/Cristaline.jpg",
+            "tags": [{"value": "Concept", "title": "Concept | Personnification"}],
+            "caption": "Cristaline (G-Fey - Jeffrey ANAVILLELA)"
           
         },
         {
-            "src": "https://c7.staticflickr.com/9/8106/28941228886_86d1450016_b.jpg",
-            "thumbnail": "https://c7.staticflickr.com/9/8106/28941228886_86d1450016_n.jpg",
-            "thumbnailWidth": 271,
-            "thumbnailHeight": 320,
-            "tags": [{"value": "Nature", "title": "Nature | Flowers"}],
-            "caption": "Orange Macro (Tom Eversley - isorepublic.com)"
+            "src": "https://i.ibb.co/phgQqHQ/Oasis-Chan.jpg",
+            "thumbnail": "https://i.ibb.co/bbxFt4F/Oasis-Chan.jpg",
+            "tags": [{"value": "Concept", "title": "Concept | Personnification"}],
+            "caption": "Oasis-Chan (G-Fey - Jeffrey ANAVILLELA)"
         },
         {
-            "src": "https://c7.staticflickr.com/9/8106/28941228886_86d1450016_b.jpg",
-            "thumbnail": "https://c7.staticflickr.com/9/8106/28941228886_86d1450016_n.jpg",
-            "thumbnailWidth": 271,
-            "thumbnailHeight": 320,
-            "tags": [{"value": "Nature", "title": "Nature | Flowers"}],
-            "caption": "Orange Macro (Tom Eversley - isorepublic.com)"
+            "src": "https://i.ibb.co/d7jVtL5/Elena.jpg",
+            "thumbnail": "https://i.ibb.co/HXBbCxH/Elena.jpg",
+            "tags": [{"value": "chara design", "title": "chara design | Aventure"}],
+            "caption": "Elena (G-Fey - Jeffrey ANAVILLELA)"
+        },
+        {
+            "src": "https://i.ibb.co/qDtLzhQ/Kim.jpg",
+            "thumbnail": "https://i.ibb.co/dfdsSXY/Kim.jpg",
+            "tags": [{"value": "chara designe", "title": "chara designe | Instagram"},{"value": "SuperStar", "title": "populaire | Superstar"}],
+            "caption": "Kim Superstar (G-Fey - Jeffrey ANAVILLELA)"
+        },
+        {
+            "src": "https://i.ibb.co/rtKSgMV/mascotte-Ryse-IT.jpg",
+            "thumbnail": "https://i.ibb.co/8BnpJ2H/mascotte-Ryse-IT.jpg",
+            "tags": [{"value": "Projet", "title": "Projet | Cartoon"}],
+            "caption": "Ryza for Ryze_it app(G-Fey - Jeffrey ANAVILLELA)"
+        },
+        {
+            "src": "https://i.ibb.co/DpMk4zm/witch-marshmallow.jpg",
+            "thumbnail": "https://i.ibb.co/16XKZ7B/witch-marshmallow.jpg",
+            "tags": [{"value": "halloween", "title": "halloween | Personnification | Sorcière | witch"}],
+            "caption": "witch-Melow (G-Fey - Jeffrey ANAVILLELA)"
+        },
+        {
+            "src": "https://i.ibb.co/wMR0L3g/profil-jeffrey.jpg",
+            "thumbnail": "https://i.ibb.co/Yp3RWYQ/profil-jeffrey.jpg",
+            "tags": [{"value": "Autoportrait", "title": "Autoportrait | Moi"}],
+            "caption": "Jeffrey (G-Fey - Jeffrey ANAVILLELA)"
+        },
+        {
+            "src": "https://i.ibb.co/MfLSrPw/Portrait.png",
+            "thumbnail": "https://i.ibb.co/2SBhxcV/Portrait.png",
+            "tags": [{"value": "Portrait", "title": "Portrait | Rika"}],
+            "caption": "Rika (G-Fey - Jeffrey ANAVILLELA)"
+        },
+        {
+            "src": "https://i.ibb.co/52C8w0C/Soul-Bringer-PG.jpg",
+            "thumbnail": "https://i.ibb.co/0Q1Mv71/Soul-Bringer-PG.jpg",
+            "tags": [{"value": "Projet", "title": "Projet | Manga amateur"}, {"value": "OC", "title": "OC"}],
+            "caption": "The Soul Bringer (G-Fey - Jeffrey ANAVILLELA)"
+        },
+        {
+            "src": "https://i.ibb.co/qrGzbxr/Zekeado.png",
+            "thumbnail": "https://i.ibb.co/RDn1L7D/Zekeado.png",
+            "tags": [{"value": "OC", "title": "OC | Street | Ado"}],
+            "caption": "Zeke Ado de Soul Bringer(G-Fey - Jeffrey ANAVILLELA)"
+        },
+        {
+            "src": "https://i.ibb.co/gRHbSMz/Soul-Bringer-paysage.jpg",
+            "thumbnail": "https://i.ibb.co/Js0WvR5/Soul-Bringer-paysage.jpg",
+            "tags": [{"value": "Projet | OC", "title": "Projet | Manga amateur"}, {"value": "Paysage", "title": "Paysage"}],
+            "caption": "The beginning de Soul Bringer(G-Fey - Jeffrey ANAVILLELA)"
+        },
+        {
+            "src": "https://i.ibb.co/h9HwDGr/starbutterfly.jpg",
+            "thumbnail": "https://i.ibb.co/3dWQBxV/starbutterfly.jpg",
+            "tags": [{"value": "Fan art", "title": "Fan art | Star Butterfly | Cartoon"}],
+            "caption": "Star Butterfly de Star vs the forces of evil(G-Fey - Jeffrey ANAVILLELA)"
+        },
+        {
+            "src": "https://i.ibb.co/RDMmxMN/guerri-re.jpg",
+            "thumbnail": "https://i.ibb.co/CHXZkX6/guerri-re.jpg",
+            "tags": [{"value": "Chara designe", "title": "Chara designe"},{"value": "Armure", "title": "Armure | médiéval"}],
+            "caption": "Guerrière (G-Fey - Jeffrey ANAVILLELA)"
+        },
+        {
+            "src": "https://i.ibb.co/StjNJ6Y/kyriza.jpg",
+            "thumbnail": "https://i.ibb.co/N9vx7FD/kyriza.jpg",
+            "tags": [{"value": "Chara designe", "title": "Chara designe"},{"value": "Postière", "title": "Métier | poste du future"}],
+            "caption": "Kyriza postière du futur (G-Fey - Jeffrey ANAVILLELA)"
         }
     ],
 

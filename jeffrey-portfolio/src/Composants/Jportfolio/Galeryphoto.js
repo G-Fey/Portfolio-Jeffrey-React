@@ -11,7 +11,7 @@ class Galeryphoto extends React.Component {
             images: this.props.data.illustration
         };
     }
-   
+
     setCustomTags (i) {
         return (
             i.tags.map((t) => {
@@ -47,9 +47,12 @@ class Galeryphoto extends React.Component {
                     border: "1px solid #ddd",
                     overflow: "auto"}}
                    >
+                       
                 <Gallery
             images={images}
-            enableImageSelection={false}/>
+            enableImageSelection={false}
+            backdropClosesModal={true}
+            lightboxWidth={50000}/>
                 </div>
         );
     }
@@ -65,8 +68,6 @@ Galeryphoto.propTypes = {
                 PropTypes.string,
                 PropTypes.element
             ]),
-            thumbnailWidth: PropTypes.number.isRequired,
-            thumbnailHeight: PropTypes.number.isRequired
         })
     ).isRequired
 };

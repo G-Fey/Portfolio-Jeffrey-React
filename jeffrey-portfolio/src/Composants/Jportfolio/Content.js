@@ -14,7 +14,7 @@ const Content = (props) => {
         className="card-body"
       >
         <h3>{data.titre}</h3>        
-        <a href={data.link} target='blank'><p>{data.link}</p></a>
+        <a href={data.link} target='_blank'><p>{data.link}</p></a>
         <p>{data.desciption}</p>
         <p>{data.category}</p>
       </motion.div>

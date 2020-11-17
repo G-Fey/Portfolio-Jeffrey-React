@@ -30,9 +30,9 @@ const Rubrique_project = (props) =>{
         transition={{duration:"1"}} 
         className="project p-3">
 
-            <motion.li layout onClick={toggleOpen} className="card-deck ">
+            <motion.li layout onClick={toggleOpen} className="card-deck">
                 <motion.div layout >
-                    <img className="" src={donne.source} alt={donne.titre}></img>
+                    <img className="imgprojet" src={donne.source} alt={donne.titre}></img>
                 </motion.div>
                 <AnimatePresence>{isOpen && <Content titre={donne.titre} link={donne.link} category={donne.category} desciption={donne.desciption} />}</AnimatePresence>
             </motion.li>

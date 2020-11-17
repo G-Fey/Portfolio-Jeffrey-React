@@ -12,12 +12,12 @@ const S_Project = () => {
 
     return (
         <section id="projects" className="ml-5 pl-5">
-            <h2 className="pl-5 text-center">Projets (Portfolio) </h2>
+            <h2 className="pl-5 pt-5 text-center">Projets (Portfolio) </h2>
 
-            <article className="section p-5">
-                <h3 className="p-5 text-center">Web</h3>
+            <article className="p-5">
+                <h3 className="p-5 text-center">Sur le web</h3>
                 <AnimateSharedLayout >
-                <motion.ul layout initial={{ borderRadius: 25 }} className="d-flex justify-content-center">
+                <motion.ul layout initial={{ borderRadius: 25 }} className="d-flex justify-content-center flex-wrap">
                     {website.map(item => (
                     <Rubrique_project key={item.id} data={{item}}/>
                     ))}
