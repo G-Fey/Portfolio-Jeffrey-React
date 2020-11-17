@@ -1,5 +1,5 @@
 import React from 'react';
-import Rubrique_CI from './Rubrique_CI'
+import RubriqueCI from './Rubrique_CI'
 
 
 const Center_I = (props) => {
@@ -8,12 +8,12 @@ const Center_I = (props) => {
 
     return (
         <section id="centre_i">
-            <h2 className="text-center p-5">Centres d'Intérêt</h2>
+            <h2 className="text-center p-lg-5 pt-5">Centres d'Intérêt</h2>
             
-            <div className="d-flex flex-wrap p-5">
+            <div className="d-flex flex-wrap p-lg-5">
                 {datas.map(data => {
                 return(
-                    <Rubrique_CI
+                    <RubriqueCI
                     key={data.id}
                     lien_logo={data.lien_logo}
                     nom_logo={data.nom_logo}

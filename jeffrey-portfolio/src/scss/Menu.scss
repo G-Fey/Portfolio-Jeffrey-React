@@ -5,12 +5,18 @@
     .navbar{
         display: none;
     }
+    .arrowbtn{
+        border: none;
+        background-color: transparent;
+        position: fixed;
+        top:-20px;
+        left:0px;
+        z-index: 7;
+        cursor:pointer;
+        transition: all .3s ease;
 
-    .navbar2{
-        display: block;
-
-        span{
-            font-family: $policetitre2;
+        &:hover{
+             left:-15px
         }
     }
 }
@@ -150,6 +156,8 @@
     }
 
     .arrowbtn{
+        border: none;
+        background-color: transparent;
         position: fixed;
         top:20px;
         left:20px;

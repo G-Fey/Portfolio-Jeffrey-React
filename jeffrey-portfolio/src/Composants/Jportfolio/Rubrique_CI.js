@@ -18,9 +18,9 @@ const Rubrique_CI = (props) => {
   
     return (
         
-        <div key={data.id} className="text-center col-lg-4 p-5">
+        <div key={data.id} className="text-center col-lg-4 p-lg-5 pb-5 mb-5">
             <div  className="d-flex justify-content-center ">
-                <motion.div className=" m-2 d-flex align-items-center"
+                <motion.div className=" m-lg-2  d-flex align-items-center"
                     ref={ref}
                     animate={controls}
                     initial="hidden"

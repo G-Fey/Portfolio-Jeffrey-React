@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Home from './Composants/Jportfolio/Home';
-import Contact from './Composants/Jportfolio/Contact';
 import Menu from './Composants/Jportfolio/Menu';
 import Aboutme from './Composants/Jportfolio/About_me';
 import ProjectSection from './Composants/Jportfolio/S_Project';
@@ -44,7 +43,7 @@ const App = () => {
         
         
               
-        <Contact/>
+        
       </div>
     </BrowserRouter>
 

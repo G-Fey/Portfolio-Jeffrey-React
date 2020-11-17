@@ -1,15 +1,52 @@
 @import 'theme';
+@media screen and (max-width:768px){
+  element.style{
+    height:auto !important;
+  }
+  .animation, .travaux{
+    display: none;
+  }
+  .cartebody, .imgprojet{
+    margin: 0px;
+    padding: 0px;
+    max-width:50vh;
+  }
+
+  .web{
+    display: flex;
+    justify-content: center;
+  }
+}
 .jumbotron{
   span{
     color: $couleur2;
   }
 }
-
 .travaux{
   width: 100em;
  }
 
 .home{
+  //ecran mobile
+  @media screen and (max-width:768px){
+    .principeslide, .slide{
+      background-color: $background;
+    }
+
+    .textpres{
+      padding-top: 50%;
+    }
+
+    h2, p{
+      text-align: center;
+    }
+    
+  }
+
+    button{
+      background-color: transparent;
+      border: none;
+    }
   
     .animation{
       cursor: default;

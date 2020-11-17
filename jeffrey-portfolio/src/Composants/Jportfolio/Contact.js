@@ -20,13 +20,13 @@ const Contact = () => {
     };
     
     return (
-        <section id="Contact" className=" d-flex align-items-center ">
-           <div className="col-lg-5 pl-5">
+        <section id="Contact" className=" d-flex align-items-center pl-lg-5 pl-0 ">
+           <div className="col-lg-5 pl-0 pl-lg-5">
                 <Fade left cascade>
                     <div><h2>Me Contacter</h2></div>
                     <a className="maillet pt-5" href="mailto:gfey.art@gmail.com" role="button"><p>gfey.art@gmail.com</p></a>
                 </Fade>
-                <div className="pt-5 d-flex">
+                <div className="pt-5 d-flex text">
                 <Fade bottom cascade>
                     <a className="pr-5 pl-5" href="https://www.linkedin.com/in/jeffrey-anavillela-202398153/" target="blank" role="button"><div className="taille"><FaLinkedinIn color="white" size="2em" onMouseOver={hoverchange} onMouseOut={outchange}/></div></a>
                     <a className="pr-5 pl-5" href="https://github.com/J-Striker" target="blank" role="button"><div className="taille"><FaGithub color="white" size="2em" onMouseOver={hoverchange} onMouseOut={outchange}/></div></a>

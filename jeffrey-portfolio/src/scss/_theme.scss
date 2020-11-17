@@ -16,6 +16,9 @@ $policetitre1:'Achi','Montserrat', sans-serif;
 $policetitre2:'Montserrat', sans-serif;
 $policetexte:'Roboto', sans-serif;
 
+body{
+    overflow-x: hidden;
+}
 h1{
     font-family: $policetitre1;
     font-size: 4em;
@@ -40,4 +43,32 @@ h4{
 p{
     font-family: $policetitre2;
     font-size: 1.5em;
+}
+
+@media screen and (max-width:768px){
+    h1{
+        font-family: $policetitre1;
+        font-size: 2em;
+    }
+    
+    h2{
+        font-family: $policetitre2;
+        font-size: 2em;
+        font-weight: 1000;
+    }
+    
+    h3{
+        font-family: $policetitre2;
+        font-size: 2em;
+    }
+    
+    h4{
+        font-family: $policetitre2;
+        font-size: 2em;
+    }
+    
+    p{
+        font-family: $policetitre2;
+        font-size: 1.5em;
+    }
 }

@@ -1,6 +1,16 @@
 @import 'theme';
 
 #Contact{
+    @media screen and (max-width:768px){
+        .text{
+            display: flex;
+            justify-content: center;
+        }
+        h2, p{
+            text-align: center;
+          }
+    }
+
     background-color: $background;
     color: #FFF;;
     height: 100vh;

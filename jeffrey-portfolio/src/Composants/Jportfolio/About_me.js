@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import SkillSection from '../Jportfolio/S_Skill';
 import ExperienceSection from './S_Experience';
 import CentreI from '../Jportfolio/Center_I';
+import Contact from '../Jportfolio/Contact';
 import Datajson from '../../data/data_portfolio.json'
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
@@ -24,11 +25,11 @@ const About_me = () => {
     return (
         <div>
             <section id="moi">
-                <div className="jumbotron pl-5">
-                    <div className="pl-5 row">
+                <div className="jumbotron pl-lg-5">
+                    <div className="pl-lg-5 row">
                         <h2 className="text-center">Et oui, c'est moi <span className="font-weight-bold">G-Fey</span>, euh... Jeffrey </h2>
 
-                        <div className="col-lg-6 p-5 d-flex align-items-center">
+                        <div className="col-lg-6 p-lg-5 d-flex align-items-center">
                             <div>
                                 <p>Je m'appelle <span className="font-weight-bold">Jeffrey ANAVILLELA</span>. Je suis née sur l'ile de la Réunion en 1995.</p>
 
@@ -48,13 +49,11 @@ const About_me = () => {
                                hidden:{ opacity:0, scale:0}
                             }}
                             transition={{type:"spring", damping:5}} 
-                            className="col-lg-6 p-5 text-center"
+                            className="col-lg-6 pt-5 p-lg-5 text-center"
                         >
-                            {/* TODO: Photo profil */}
-                            <img className="rounded-circle" src={photo}
-                            style={{
-                                height:400, 
-                                width: 400,
+                            <img className="photo rounded-circle" alt="photode profil" src={photo}
+                            style={{ 
+                                width: "55vw",
                                 background:"#2ECC71"
                                 }}></img>
                         </motion.div>
@@ -66,7 +65,7 @@ const About_me = () => {
             <SkillSection data={Datajson.Skill}/>
             <ExperienceSection data={Datajson.Experience}/>
             <CentreI data={Datajson.Center_I}/>
-
+            <Contact/>
         </div>
     );
 }
