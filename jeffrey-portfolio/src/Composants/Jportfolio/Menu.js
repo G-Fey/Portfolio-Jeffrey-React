@@ -205,10 +205,10 @@ class Menu extends Component {
                         </Link>
 
                     </ul>
-                    <a className="btn btn-lg btn-gradient flat linkedin" href="https://www.linkedin.com/in/jeffrey-anavillela-202398153/" target="blank" role="button"><div className="taille"><FaLinkedinIn color="white" size="0.8em"/></div></a>
-                    <a className="btn btn-lg btn-gradient flat git" href="https://github.com/J-Striker" target="blank" role="button"><div className="taille"><FaGithub color="white" size="0.8em" /></div></a>
+                    <a className="btn btn-lg btn-gradient flat linkedin" href="https://www.linkedin.com/in/jeffrey-anavillela-202398153/" target="_blank" role="button"><div className="taille"><FaLinkedinIn color="white" size="0.8em"/></div></a>
+                    <a className="btn btn-lg btn-gradient flat git" href="https://github.com/J-Striker" target="_blank" role="button"><div className="taille"><FaGithub color="white" size="0.8em" /></div></a>
                     <a className="btn btn-lg btn-gradient flat mail" href="mailto:gfey.art@gmail.com" role="button"><div className="taille"><GrMail color="white" size="0.8em"/></div></a>
-                    <a className="btn btn-lg btn-gradient flat face" href="https://www.facebook.com/jeffrey.anavillela" target="blank" role="button"><div className="taille"><FaFacebookF color="white" size="0.8em"/></div></a>
+                    <a className="btn btn-lg btn-gradient flat face" href="https://www.facebook.com/jeffrey.anavillela" target="_blank" role="button"><div className="taille"><FaFacebookF color="white" size="0.8em"/></div></a>
                 </div>
 
                 <div className="navbar2 ">
