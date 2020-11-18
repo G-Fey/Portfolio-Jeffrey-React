@@ -33,7 +33,6 @@
         transition:width .3s ease;
         cursor:pointer;
         box-shadow:4px 7px 10px rgba(0,0,0,.4);
-        opacity: 90%;
 
  
         &:hover {
@@ -145,10 +144,6 @@
 
     .face{
         bottom:10px
-    }
-
-    .navbar2{
-        display: none;
     }
 
     .nav-item > .active {

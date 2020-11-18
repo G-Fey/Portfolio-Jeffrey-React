@@ -11,21 +11,8 @@ const App = () => {
   
   return (
     <BrowserRouter>
-      <div className="App">
-
-        <motion.div
-             initial={{
-              opacity:0,
-              x:-100
-          }}
-          animate={{
-              opacity:1,
-              x:0
-          }}
-          transition={{duration:1}} 
-          >
+      
           <Menu/>
-        </motion.div>
 
         <motion.div
              initial={{
@@ -40,11 +27,8 @@ const App = () => {
           <Route exact path="/Aboutme" component={Aboutme} />
           <Route exact path="/Project" component={ProjectSection} />
         </motion.div>
-        
-        
-              
-        
-      </div>
+      
+
     </BrowserRouter>
 
   );

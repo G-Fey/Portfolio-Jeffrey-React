@@ -45,11 +45,11 @@ class Menu extends Component {
 
         return (
 
-            <nav >
+            <nav className="navbar">
                 {this.handleChange()}
                 <button  className={classes[3].buttonretour +" arrowbtn"} onClick={()=>window.location.href='/'}><BsArrowLeft color="white" size="6em"/></button>
                 
-                <div className="navbar">
+               
                     <ul className="nav-item">
                     
                         <Link
@@ -208,11 +208,7 @@ class Menu extends Component {
                     <a className="btn btn-lg btn-gradient flat git" href="https://github.com/J-Striker" target="_blank" rel="noreferrer" role="button"><div className="taille"><FaGithub color="white" size="0.8em" /></div></a>
                     <a className="btn btn-lg btn-gradient flat mail" href="mailto:gfey.art@gmail.com" role="button"><div className="taille"><GrMail color="white" size="0.8em"/></div></a>
                     <a className="btn btn-lg btn-gradient flat face" href="https://www.facebook.com/jeffrey.anavillela" target="_blank" rel="noreferrer" role="button"><div className="taille"><FaFacebookF color="white" size="0.8em"/></div></a>
-                </div>
-
-                <div className="navbar2 ">
-                        {/* TODO navbar version mobile */}
-                </div>
+               
 
             </nav>
         );
