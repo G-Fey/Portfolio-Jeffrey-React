@@ -88,7 +88,7 @@
         {
             "id":15,
             "source":"https://i.ibb.co/f2gXXCg/lol-png.webp",
-            "nom_logo" : "Maintenance et réparation matérielle informatique",
+            "nom_logo" : "Maintenance et réparation matériel informatique",
             "mastery" : "100%"
         },
         {
@@ -106,7 +106,7 @@
             "id":1,
             "lien_logo" : "https://i.ibb.co/Gnf97Gv/krita-article-front-1080x506.png",
             "nom" : "Digital Painting ",
-            "description" : "Je dessine souvent pour approfondir mon style de dessin. En ce moment mon style de dessin ce reproche du manga et du cartoon. Je dessine en général des personnages, mais je veux sortir de ma zone de confort pour commencer à dessiner des paysage et des décors."
+            "description" : "Je dessine souvent pour approfondir mon style de dessin. En ce moment mon style de dessin se rapproche du manga et du cartoon. Je dessine en général des personnages, mais je veux sortir de ma zone de confort pour commencer à dessiner des paysage et des décors."
         },
         {
             "id":2,
@@ -118,7 +118,7 @@
             "id":3,
             "lien_logo" : "https://i.ibb.co/2Nv390x/Gamer.jpg",
             "nom" : "Gamer ",
-            "description" : "Drakeîn est un anime amateur en production par le WJR Studio (J pour Jeffrey). En ce qui concerne le trailer, mon rôle était de créer et d'ajouter les effets spéciaux grâce au logiciel adobe after effect et ensuite de monter la vidéo. "
+            "description" : "J'ai organisé des LAN et un tournois de jeux video."
         }
     ],
 
@@ -130,7 +130,7 @@
             "titre" : "Ryze It : Gestionnaire d'intervention pour les PME ",
             "link":" http://ryzeit.epizy.com",
             "category":"Type: Application Web",
-            "desciption":"L'application web Ryze it est une application de gestion de service (intervention). Elle permet de gérer les interventions par employer affecter à la tâche. C'est une application web complète qui permet d'avoir un espace perso pour son entreprise avec ses employées."
+            "desciption":"L'application web Ryze it est une application de gestion de service (intervention). Elle permet de gérer les interventions par employé affecté à la tâche. C'est une application web complète qui permet d'avoir un espace perso pour son entreprise avec ses employées."
         },
         {
             "id":2,
@@ -143,10 +143,10 @@
         {
             "id":3,
             "source" : "https://i.ibb.co/sywc6v0/logo-exodia.png",
-            "titre" : "Exodya todolist : Application de tache a faire (todoliste)",
+            "titre" : "Exodya todolist : Application de tache à faire (todoliste)",
             "link":"https://github.com/freezer974/todolist",
             "category":"Type: Application Web",
-            "desciption":"Cette application Web permet de créer des listes de tâches de les supprimer et de les validés."
+            "desciption":"Cette application Web permet de créer des listes de tâches de les supprimer et de les valider."
         },
         {
             "id":4,
@@ -154,7 +154,7 @@
             "titre" : "Drakeîn : Trailer animation amateur",
             "link":"https://www.youtube.com/watch?v=WPHaDUuEd0o&fbclid=IwAR1ArTe69v1TQ8qlAG4X81HQ0kk0D4GZCFP6rI5UtyxYfKDoV21aAXy-4XY",
             "category":"Type: Animation amateur",
-            "desciption":"Drakeîn est un anime amateur en production par le WJR Studio (J pour jeffrey). En ce qui concerne le trailer mon rôle étais de créée et d'ajouter les effet spéciaux grace au logiciel adobe after effect et ensuite de monter la video. "
+            "desciption":"Drakeîn est un anime amateur en production par le WJR Studio (J pour jeffrey). En ce qui concerne le trailer mon rôle était de créer et d'ajouter les effets spéciaux grâce au logiciel adobe after effect et ensuite de monter la video. "
         }
         
     ],
@@ -276,7 +276,7 @@
             "source":"https://i.ibb.co/n3Nm9BH/t-l-charger.jpg",
             "nom_entreprise" : "Mairie de St-Benoit | 2017",
             "poste" : "Stagiaire Technicien Assistant Informatique",
-            "description" : "Stage réalisé pendant ma formation de technicien d'assistance en informatique. J'avais pour mission de réaliser le diagnostique d’un poste informatique, d'effectuer le dépannage de PC, d'installer les composants et les pilotes et d'Assister des utilisateurs."
+            "description" : "Stage réalisé pendant ma formation de technicien d'assistance en informatique. J'avais pour mission de réaliser le diagnostic d’un poste informatique, d'effectuer le dépannage de PC, d'installer les composants et les pilotes et d'Assister des utilisateurs."
         }
      
     ]

@@ -33,7 +33,7 @@ const S_Project = () => {
                 <div className="container-fluid d-md-block d-none">
                     <Galeryphoto data ={{illustration}}></Galeryphoto>
                 </div>
-                <p className="p-5 d-block d-md-none">Ooops Pour l'instant les illustrations ne sont pas disponible dans la version mobile veuillez passer sur Ordinateur ou Tablette pour pouvoir regarder mes illustrations</p>
+                <p className="p-5 d-block d-md-none">Ooops pour l'instant les illustrations ne sont pas disponibles dans la version mobile veuillez passer sur Ordinateur ou Tablette pour pouvoir regarder mes illustrations</p>
             </article>
 
                 <Contact/>
